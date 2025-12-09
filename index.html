@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOP Legal | Justicia, Orden y Protección</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo-jop.png.jpg" alt="JOP Legal Logo" class="nav-logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="team.html">Equipo</a></li>
+                <li><a href="#contact-section" class="cta-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-split">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Justicia, Orden <br>y Protección.</h1>
+                    <p class="hero-subtitle">Su aliado estratégico en derecho corporativo y civil. Soluciones jurídicas sólidas con la ética y transparencia que su futuro merece.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact-section" class="btn primary-cta">Agenda tu Consulta</a>
+                        <a href="#servicios" class="btn outline-cta">Nuestros Servicios</a>
+                    </div>
+                    
+                    <p class="trust-badge"><i class="fas fa-check-circle"></i> Más de 15 años de experiencia</p>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <img src="logo-jop.png.jpg" alt="Emblema JOP Legal">
+                    </div>
+                    <div class="shape-blob"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="featured-services">
+            <h2>Nuestras Áreas de Práctica</h2>
+            <p class="section-desc">Experiencia legal integral enfocada en resultados.</p> 
+         <div class="service-cards">
+    <div class="card interactive-card" onclick="openModal('modal-corporativo')">
+        <i class="fas fa-gavel"></i>
+        <h3>Derecho Corporativo</h3>
+        <p>Constitución de empresas y contratos.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+
+    <div class="card interactive-card" onclick="openModal('modal-civil')">
+        <i class="fas fa-balance-scale"></i>
+        <h3>Derecho Civil</h3>
+        <p>Disputas de propiedad y obligaciones.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+
+    <div class="card interactive-card" onclick="openModal('modal-familiar')">
+        <i class="fas fa-users"></i>
+        <h3>Derecho Familiar</h3>
+        <p>Divorcios, custodias y sucesiones.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+
+    <div class="card interactive-card" onclick="openModal('modal-laboral')">
+        <i class="fas fa-briefcase"></i>
+        <h3>Derecho Laboral</h3>
+        <p>Prestaciones y conflictos laborales.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+
+    <div class="card interactive-card" onclick="openModal('modal-penal')">
+        <i class="fas fa-user-shield"></i>
+        <h3>Derecho Penal</h3>
+        <p>Defensa técnica y procesos penales.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+
+    <div class="card interactive-card" onclick="openModal('modal-administrativo')">
+        <i class="fas fa-landmark"></i>
+        <h3>Derecho Admin.</h3>
+        <p>Recursos y trámites ante el Estado.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+
+    <div class="card interactive-card" onclick="openModal('modal-inmobiliario')">
+        <i class="fas fa-home"></i>
+        <h3>Derecho Inmobiliario</h3>
+        <p>Saneamiento y litis de tierras.</p>
+        <span class="card-cta">Ver detalles <i class="fas fa-plus"></i></span>
+    </div>
+</div>
+        </section>
+
+        <section class="credibility-strip">
+            <div class="values-container">
+                <div class="value-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Confianza</h3>
+                    <p>Transparencia absoluta en cada paso.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Trayectoria</h3>
+                    <p>Historial comprobado de casos exitosos.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Compromiso</h3>
+                    <p>Defensa incansable de sus intereses.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="philosophy">
+    <div class="philosophy-header">
+        <h2>Nuestra Filosofía</h2>
+        <div class="separator-gold"></div>
+    </div>
+    
+    <div class="philosophy-grid">
+        <div class="philosophy-item">
+            <div class="icon-wrapper">
+                <i class="fas fa-eye"></i> </div>
+            <h3>Visión</h3>
+            <p>
+                Ser la firma legal de referencia en la República Dominicana, reconocida por transformar el ejercicio del derecho mediante la innovación, la ética inquebrantable y resultados que protegen el legado de nuestros clientes. Aspiramos a construir un entorno jurídico más justo y transparente para las futuras generaciones.
+            </p>
+        </div>
+
+        <div class="philosophy-item">
+            <div class="icon-wrapper">
+                <i class="fas fa-bullseye"></i> </div>
+            <h3>Misión</h3>
+            <p>
+                Brindar asesoría jurídica integral de alta calidad, combinando experiencia técnica con una profunda empatía humana. Nos dedicamos a defender los intereses de nuestros clientes con estrategias legales sólidas, asegurando siempre la justicia, el orden y la protección en cada caso que asumimos.
+            </p>
+        </div>
+
+        <div class="philosophy-item">
+            <div class="icon-wrapper">
+                <i class="fas fa-gem"></i> </div>
+            <h3>Valores</h3>
+            <p>
+                Nuestra práctica se fundamenta en la <strong>Honestidad</strong> absoluta ante el cliente, la <strong>Excelencia</strong> en cada documento redactado y la <strong>Lealtad</strong> incondicional. Creemos que el derecho es una herramienta de paz social y la ejercemos con responsabilidad y transparencia total.
+            </p>
+        </div>
+    </div>
+</section>
+
+        <section class="cta-banner">
+            <h2>¿Necesita asesoría legal urgente?</h2>
+            <p>No deje pasar el tiempo, cada detalle cuenta en su caso.</p>
+            <a href="#contact-section" class="btn dark-cta">Contáctanos Ahora</a>
+        </section>
+    
+        <section id="contact-section" class="contact">
+            <div class="contact-container">
+                <div class="contact-visual">
+                    <img src="contactanos-cita.png" alt="Asesoría Legal JOP Legal">
+                </div>
+                
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" placeholder="Su nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+
+                        <input type="tel" id="phone" placeholder="(000) 000-0000">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Descripción del Caso</label>
+                        <textarea id="message" placeholder="Describa brevemente su situación legal..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-cta full-width">Enviar Consulta</button>
+                    <p id="form-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-corporativo" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-corporativo')">&times;</span>
+        <i class="fas fa-gavel modal-icon"></i>
+        <h3>Servicios Corporativos</h3>
+        <ul class="service-list">
+            <li>Constitución de Compañías (SRL, EIRL, SAS)</li>
+            <li>Registro Mercantil y RNC</li>
+            <li>Asambleas Ordinarias y Extraordinarias</li>
+            <li>Fusiones y Adquisiciones</li>
+            <li>Redacción de Estatutos Sociales</li>
+            <li>Disolución y Liquidación de Empresas</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-civil" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-civil')">&times;</span>
+        <i class="fas fa-balance-scale modal-icon"></i>
+        <h3>Servicios Civiles</h3>
+        <ul class="service-list">
+            <li>Cobro de Pesos y Embargos</li>
+            <li>Demandas en Daños y Perjuicios</li>
+            <li>Incumplimiento de Contratos</li>
+            <li>Responsabilidad Civil Contractual y Delictual</li>
+            <li>Desalojos y Ley de Alquileres</li>
+            <li>Hipotecas y Préstamos</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-familiar" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-familiar')">&times;</span>
+        <i class="fas fa-users modal-icon"></i>
+        <h3>Derecho de Familia</h3>
+        <ul class="service-list">
+            <li>Divorcios (Mutuo Consentimiento e Incompatibilidad)</li>
+            <li>Guarda, Custodia y Régimen de Visitas</li>
+            <li>Demandas de Manutención</li>
+            <li>Determinación de Herederos</li>
+            <li>Partición de Bienes Sucesorales</li>
+            <li>Rectificación de Actas del Estado Civil</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-laboral" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-laboral')">&times;</span>
+        <i class="fas fa-briefcase modal-icon"></i>
+        <h3>Derecho Laboral</h3>
+        <ul class="service-list">
+            <li>Cálculo y Reclamación de Prestaciones Laborales</li>
+            <li>Despidos Injustificados y Dimisiones</li>
+            <li>Redacción de Contratos de Trabajo</li>
+            <li>Representación ante el Ministerio de Trabajo</li>
+            <li>Litigios por Accidentes Laborales</li>
+            <li>Asesoría en Seguridad Social (TSS)</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-penal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-penal')">&times;</span>
+        <i class="fas fa-user-shield modal-icon"></i>
+        <h3>Derecho Penal</h3>
+        <ul class="service-list">
+            <li>Defensa Técnica en Juicios Penales</li>
+            <li>Medidas de Coerción y Fianzas</li>
+            <li>Interposición de Querellas y Denuncias</li>
+            <li>Recursos de Apelación y Casación</li>
+            <li>Habeas Corpus</li>
+            <li>Violencia de Género e Intrafamiliar</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-administrativo" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-administrativo')">&times;</span>
+        <i class="fas fa-landmark modal-icon"></i>
+        <h3>Derecho Administrativo</h3>
+        <ul class="service-list">
+            <li>Recursos Contenciosos Administrativos</li>
+            <li>Asesoría en Licitaciones Públicas</li>
+            <li>Gestión de Permisos y Licencias Estatales</li>
+            <li>Reclamaciones Patrimoniales al Estado</li>
+            <li>Derecho Municipal</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-inmobiliario" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('modal-inmobiliario')">&times;</span>
+        <i class="fas fa-home modal-icon"></i>
+        <h3>Derecho Inmobiliario</h3>
+        <ul class="service-list">
+            <li>Transferencias de Títulos de Propiedad</li>
+            <li>Procesos de Saneamiento y Deslinde</li>
+            <li>Litis sobre Derechos Registrados</li>
+            <li>Constitución de Condominios</li>
+            <li>Investigación de Estatus Jurídico de Inmuebles</li>
+        </ul>
+    </div>
+</div>
+
+   <footer>
+        <div class="footer-main-content">
+            <div class="footer-col brand-col">
+                <div class="footer-brand">JOP Legal</div>
+                <p>Justicia, Orden y Protección. Su aliado estratégico para un futuro seguro y transparente.</p>
+            </div>
+
+            <div class="footer-col links-col">
+                <h3>Enlaces Legales</h3>
+                <ul class="footer-links-vertical">
+                    <li><a href="privacy.html">Política de Privacidad</a></li>
+                    <li><a href="disclaimer.html">Aviso Legal</a></li>
+                    </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>Contáctenos</h3>
+                <ul class="footer-contact-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Isabel Aguiar No. 96 (frente a Cemex, segundo nivel de Repuesto Rico), sector de Herrera, Municipio Santo Domingo Oeste, Provincia Santo Domingo, República Dominicana</li>
+                    <li><i class="fas fa-phone"></i> (829) 696-3082</li>
+                    <li><i class="fas fa-envelope"></i> solucionlegal@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 Lic. Julito Ogando. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="whatsapp-widget">
+            
+            <div class="whatsapp-box">
+                <div class="whatsapp-header">
+                    <div class="wa-header-info">
+                        <span class="wa-logo">JOP Legal</span>
+                        <span class="wa-status">Responde habitualmente en 1h</span>
+                    </div>
+                    <i class="fas fa-times wa-close"></i>
+                </div>
+                
+                <div class="whatsapp-body">
+                    <div class="wa-message">
+                        <span class="wa-author">Soporte Legal</span>
+                        <p>Hola 👋, somos tu mejor opción para asesoría jurídica experta.</p>
+                        <p>¿En qué podemos ayudarte hoy?</p>
+                        <span class="wa-time">Justo ahora</span>
+                    </div>
+                </div>
+                
+                <div class="whatsapp-footer">
+                    <a href="https://wa.me/18296963082?text=Hola,%20quisiera%20una%20consulta%20legal." target="_blank" class="btn-open-chat">
+                        <i class="fab fa-whatsapp"></i> Abrir chat
+                        
+                        <div class="qr-popup">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/18296963082" alt="Escanea para chatear">
+                            <span class="qr-text">Escanea el código</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="whatsapp-trigger">
+                <i class="fab fa-whatsapp"></i>
+                <span class="wa-notification-dot"></span>
+            </div>
+        </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
