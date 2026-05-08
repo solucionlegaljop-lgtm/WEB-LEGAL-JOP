@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detalle de propiedad en JOP Inmobiliaria con precio, ubicacion, habitaciones, banos, metraje, parqueos y descripcion.">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="JOP Inmobiliaria | Detalle de propiedad">
+    <meta property="og:description" content="Conozca los detalles de esta propiedad y coordine una visita con JOP Inmobiliaria.">
+    <meta property="og:type" content="website">
+    <title>JOP Inmobiliaria | Propiedad</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <div class="header-shell">
+            <a href="../index.html" class="brand-mark" aria-label="Ir al inicio de JOP Inmobiliaria">
+                <span class="nav-text-logo">JOP Inmobiliaria</span>
+            </a>
+
+            <nav aria-label="Navegacion principal">
+                <ul class="nav-list">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicios.html" aria-current="page">Cat&aacute;logo</a></li>
+                    <li><a href="team.html">Equipo</a></li>
+                    <li><a href="contact.html" class="cta-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="service-detail-hero">
+            <div class="service-detail-shell">
+                <a href="servicios.html" class="back-link"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al cat&aacute;logo</a>
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../index.html">Inicio</a>
+                    <span aria-hidden="true">/</span>
+                    <a href="servicios.html">Cat&aacute;logo</a>
+                    <span aria-hidden="true">/</span>
+                    <span>Detalle</span>
+                </nav>
+
+                <div class="service-detail-header">
+                    <div class="service-detail-icon-wrap">
+                        <i id="property-icon" class="fas fa-house" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="service-detail-copy">
+                        <p id="property-status" class="service-detail-eyebrow">Disponible</p>
+                        <h1 id="property-title">Apartamento familiar en Bella Vista</h1>
+                        <p id="property-description" class="service-detail-description">Propiedad luminosa con espacios amplios, buena distribucion y ubicacion estrategica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-detail-content">
+            <div class="service-detail-shell property-detail-layout">
+                <article class="detail-panel property-gallery-panel">
+                    <div class="property-detail-image-wrap">
+                        <img id="property-main-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" width="1100" height="760" loading="eager" decoding="async">
+                        <span id="property-type" class="property-type-badge">Apartamento</span>
+                    </div>
+                    <div id="property-gallery" class="property-gallery-thumbs" aria-label="Galeria de imagenes de la propiedad"></div>
+                </article>
+
+                <aside class="detail-sidebar">
+                    <div class="detail-card property-price-card">
+                        <span>Precio</span>
+                        <strong id="property-price">US$185,000</strong>
+                        <p id="property-location"><i class="fas fa-location-dot" aria-hidden="true"></i> Bella Vista, Santo Domingo</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Coordinar visita</h3>
+                        <p>Solicite disponibilidad, fotos adicionales o una visita presencial o virtual.</p>
+                        <div class="stacked-actions">
+                            <a href="contact.html" class="btn dark-cta service-detail-cta" data-track="cta_click" data-track-label="propiedad_contacto">Solicitar informaci&oacute;n</a>
+                            <a id="property-whatsapp" href="https://wa.me/18296963082?text=Hola,%20quisiera%20informacion%20sobre%20esta%20propiedad." class="btn ghost-btn service-detail-cta" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-track-label="propiedad_whatsapp">WhatsApp directo</a>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Otras propiedades</h3>
+                        <div id="other-properties" class="other-services-list"></div>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="service-detail-shell property-detail-sections">
+                <article class="detail-panel">
+                    <h2>Detalles de la vivienda</h2>
+                    <div id="property-features" class="property-feature-list"></div>
+                </article>
+
+                <article class="detail-panel">
+                    <h2>Caracter&iacute;sticas destacadas</h2>
+                    <ul id="property-amenities" class="service-list"></ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main-content">
+            <div class="footer-col">
+                <div class="footer-brand">JOP Inmobiliaria</div>
+                <p>Soluciones inmobiliarias con acompa&ntilde;amiento claro para comprar, vender, alquilar e invertir.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Enlaces del sitio</h3>
+                <ul class="footer-links-vertical">
+                    <li><a href="legal/privacy.html">Pol&iacute;tica de Privacidad</a></li>
+                    <li><a href="legal/disclaimer.html">Aviso Legal</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Cont&aacute;ctenos</h3>
+                <ul class="footer-contact-list">
+                    <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>Av. Isabel Aguiar No. 96, frente a Cemex, segundo nivel de Repuesto Rico, Herrera, Santo Domingo Oeste, Rep&uacute;blica Dominicana.</span></li>
+                    <li><i class="fas fa-phone" aria-hidden="true"></i><a href="tel:+18296963082">(829) 696-3082</a></li>
+                    <li><i class="fas fa-calendar-check" aria-hidden="true"></i><span>Visitas y reuniones presenciales o virtuales con cita previa.</span></li>
+                    <li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:solucionlegal@gmail.com">solucionlegal@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 JOP Inmobiliaria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="whatsapp-widget">
+        <div class="whatsapp-box" aria-label="Contacto rapido por WhatsApp">
+            <div class="whatsapp-header">
+                <span class="wa-logo">JOP Inmobiliaria</span>
+                <span class="wa-status">Respuesta habitual en 1h</span>
+            </div>
+
+            <div class="whatsapp-body">
+                <div class="wa-message">
+                    <span class="wa-author">Asesor inmobiliario</span>
+                    <p>Podemos ayudarle a conocer mas detalles de esta propiedad.</p>
+                    <span class="wa-time">Justo ahora</span>
+                </div>
+            </div>
+
+            <div class="whatsapp-footer">
+                <a href="https://wa.me/18296963082?text=Hola,%20quisiera%20informacion%20sobre%20esta%20propiedad." target="_blank" rel="noopener noreferrer" class="btn-open-chat" aria-label="Abrir chat de WhatsApp">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    <span>Abrir chat</span>
+
+                    <div class="qr-popup">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-qr-src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/18296963082" alt="Codigo QR para abrir el chat de WhatsApp" width="150" height="150" loading="lazy" decoding="async">
+                        <span class="qr-text">Escanee el codigo</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <a href="https://wa.me/18296963082?text=Hola,%20quisiera%20informacion%20sobre%20esta%20propiedad." target="_blank" rel="noopener noreferrer" class="whatsapp-trigger" aria-label="Abrir WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <span class="wa-notification-dot" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <script src="../assets/js/javascript.js" defer></script>
+</body>
+</html>
