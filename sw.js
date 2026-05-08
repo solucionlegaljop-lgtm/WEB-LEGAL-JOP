@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jop-inmobiliaria-v6';
+const CACHE_NAME = 'jop-inmobiliaria-v7';
 const APP_SHELL = [
     './',
     './index.html',
@@ -9,7 +9,8 @@ const APP_SHELL = [
     './pages/legal/privacy.html',
     './pages/legal/disclaimer.html',
     './assets/css/style.css',
-    './assets/js/javascript.js'
+    './assets/js/javascript.js',
+    './assets/images/logo-theinrestate-header.jpg'
 ];
 
 self.addEventListener('install', (event) => {

@@ -10,6 +10,7 @@ Este sitio es una web estatica multipagina para JOP Inmobiliaria.
   - `javascript.js`: logica compartida, tracking, formulario, catalogo y detalle dinamico de propiedades.
 - `assets/images/`
   - `logo-jop.png.jpg`: imagen historica disponible del proyecto.
+  - `logo-theinrestate-header.jpg`: logo recortado para la barra de navegacion.
   - `contactanos-cita.png`: imagen disponible del proyecto.
 - `pages/`
   - `servicios.html`: catalogo de propiedades inmobiliarias.
